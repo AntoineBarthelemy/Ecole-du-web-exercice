@@ -1,0 +1,25 @@
+/* Declaration of global settings */
+
+/* Logic of the code  */
+
+#my-id {
+  color: red;
+  transition: all 0.4s ease-in-out;
+}
+.title {
+  color: blue;
+  transition: all 0.4s ease-in-out;
+}
+video{
+  width: 100%;
+}
+
+/* Pseudo élement */
+
+#my-id:hover {
+  color: green;
+}
+
+.title:hover {
+    color: green;
+}

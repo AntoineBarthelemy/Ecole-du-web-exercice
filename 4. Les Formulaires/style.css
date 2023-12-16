@@ -1,0 +1,20 @@
+form{
+    box-shadow: 2px 2px 45px rgba(0, 0, 0, 0.9);
+    padding: 30px;
+}
+input, textarea{
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 0 auto;
+    resize: none;
+    width: 100%;
+    
+}  
+input:valid{
+    background: green;
+}
+input:invalid{
+    background: red;
+}
+/* input[type="text"]{} */

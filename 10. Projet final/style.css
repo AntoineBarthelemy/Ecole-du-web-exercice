@@ -1,0 +1,100 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body  {
+  font-family: Raleway, sans-serif;
+  padding: 0 20px;
+
+}
+nav {
+  padding: 20px;
+  text-align: center;
+}
+nav a {
+  margin: 0 15px;
+  color: #222;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.banner {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1100px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+h1, h2 {
+  font-family: Open sans, sans-serif;
+}
+h1 {
+  font-size: 40px;
+  margin: 30px 0;
+  text-align: center;
+}
+h2 {
+  margin-bottom: 10px;
+}
+.container {
+
+  max-width: 1100px;
+  margin: 0 auto;
+}
+section {
+  margin: 10px 0;
+}
+.newsletter {
+  margin: 50px 0;
+  padding: 30px 20px;
+  border-radius: 2px;
+  background: linear-gradient(45deg, salmon, orange);
+  text-align: center;
+}
+.newsletter > p {
+  font-size: 30px;
+  font-family: Open sans, sans-serif;
+  font-weight: bold;
+}
+label, input, form button {
+  display: block;
+  margin: 10px auto;
+}
+input {
+  padding: 5px;
+  max-width: 600px;
+}
+button {
+  min-width: 125px;
+  padding: 7px 0;
+  background: #111;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #f1f1f1;
+}
+input {
+  width: 100%;
+}
+ul {
+  margin-top: 10px;
+}
+li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+footer {
+  max-width: 1100px;
+  margin: 50px auto 0;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+}
+footer * {
+  margin: 10px 0;
+}
+footer img {
+  width: 30px;
+}

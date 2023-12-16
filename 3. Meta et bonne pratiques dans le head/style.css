@@ -1,0 +1,21 @@
+body {
+  background: #a6a1a1;
+  font-family: Poppins, sans-serif;
+  font-style: italic;
+}
+  
+h1{
+    text-align: center;
+}
+#interest{text-align: center;}
+
+div{
+  background-color: rgba(173, 173, 234, 0.665);
+  border-radius: 25px;
+  height: 50%;
+}
+div p {
+  text-align: center;
+  padding: 50px;
+}
+

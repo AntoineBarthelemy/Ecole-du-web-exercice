@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elements importants</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Ces attributs servent à faciliter la selection en Css et en Js -->
+
+    <!-- Les classes, peuvent pointé vers plusieurs élements -->
+
+    <h1 class="title title-except">Je suis pointé par une classe</h1>
+    <h2 class="title">Je suis également pointé par une classe</h2>
+
+    <!-- Les id, doivent pointé vers un unique élement, sinon problème en JS, et etre présent qu'une seule fois dans une balise (tout le contraire de ce qu'il y a en dessous)-->
+
+    <p id="my-id my-love">Je suis pointé par un id</p>
+    <p id="my-id">Je suis également pointé par un id</p>
+
+    <!-- Un lien effectue l'action d'aller quelques parts, <a> != <button> -->
+    <!-- Vers une page externe -->
+
+    <a href="https://google.com">Google</a>
+
+    <!--  Vers la meme page de notre site -->
+    <a href="#title2">vers la meme page de mon site</a>
+
+    <h2 id="title2">Meme page</h2>
+
+    <!-- Vers une autre page de notre site -->
+    <a href="../1. Les bases/index.html">Vers une autre page de mon site</a>
+
+    <!-- Les images -->
+    <img src="../ressources/img/Image d'un casctus devant un rocher.jpg" alt="Cactus devant un rocher">
+
+    <!--Les vidéos -->
+    <video autoplap loop muted controls src="../ressources/video/cars.mp4"></video>
+
+    <!-- Les audios -->
+    <audio controls loop src="/Ecole du web/ressources/audio/nihno-dis-mois-que-tu-maime .m4a"></audio>
+
+    <!-- Un boutton effectue une fonctionnalité (modifier, supprimer, rajouter, animation, envoyer des données), jouer quelque chose, télecharger, <button> != <a> -->
+
+    <button >Valider</button>
+
+
+    <script src="app.js"></script>
+  </body>
+</html>

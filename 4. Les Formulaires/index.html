@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Les formulaires</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="description"
+      content="Voici une Présentation des formulaires en Html"
+    />
+  </head>
+  <body>
+    <!-- L'atribut name dans le input, permet de labeliser les donnée reçu par le serveur, à mon avis de bien les faire correspondre -->
+    <form>
+      <label for="name">Votre nom</label>
+      <!-- Input type text -->
+      <!-- L'attribut required comme son nom l'indique, oblige à ce que il y est de la data dedans pour l'envoie du formulaire, si il n'est pas présent le bouton submit envoie la data -->
+      <input
+        pattern="Python"
+        minlength="7"
+        ="text"
+        id="name"
+        placeholder="Rentrez votre nom"
+        name="NameUser"
+      />
+      <label for="email">Votre email</label>
+      <!-- Input type email -->
+      <input type="label" id="email" placeholder="Entrez votre email" />
+      <!-- Input type color -->
+
+      <input type="color" />
+      <!-- Input type range -->
+      <input type="range" />
+      <!-- Input type date -->
+      <input type="date" />
+      <!--  Input type password -->
+      <input minlength="5" type="password" />
+      <!-- Input type checkbox -->
+      <input type="checkbox" />
+      <!-- Input type radio -->
+      <input type="radio" />
+      <!-- Input type file -->
+      <input type="file" />
+      <!--  Input type number -->
+      <input type="number" />
+      <label for="message">Votre message</label>
+      <textarea autocomplete="on" name="message" id="message"></textarea>
+      <!-- Il faut faire attention au <button> qui par défaut dans un formulaire ont un comportement d'envoie de la data, contrairement à l'éxterieur ou ils ont un comportement de fonction   -->
+      <button id="submit" type="submit">Send Data</button>
+      <button type="button">Fonctionnalité</button>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
