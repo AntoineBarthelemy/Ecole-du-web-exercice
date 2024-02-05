@@ -1,5 +1,4 @@
-# Réalisation des exercices du module 1 de la formation : École du Web Parcours Front-End 🎓
+# Completion of exercises from Module 1 of the training: École du Web Front-End Path 🎓
 
-Ce dépôt atteste de l'acquisition de tous les éléments nécessaires à la réalisation d'un code HTML propre. Il couvre tout, des différentes balises à la sémantique, du SEO (Search Engine Optimization) aux astuces de productivité avec Emmet. <br><br>
-Cette profondeur dans l'apprentissage du HTML me permet de comprendre en détail tous les enjeux et intérêts dans son implication dans la réalisation d'une application web.
-
+This repository certifies the acquisition of all the necessary elements for writing clean HTML code. It covers everything from different tags to semantics, from SEO (Search Engine Optimization) to productivity tips with Emmet. <br><br>
+This depth in learning HTML allows me to thoroughly understand all the stakes and interests in its involvement in the creation of a web application.
